@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #ffcb05; */
+    background-image: linear-gradient(
+      #003a70,
+      black
+    );
+    width: 100vw;
+  }
+  
+  .score-label {
+    height: 50px;
+  }
+  .score-and-label {
+    display: flex;
+  }
+  .scoreBox {
+    padding-left: 100px;
+  }
